@@ -1,15 +1,9 @@
-otto is giving an example
-otto is giving an example
-otto is giving an example
-otto is giving an example
-otto is giving an example
-otto is giving an example
-otto is giving an example
-otto is giving an example
-otto is giving an example
-otto is giving an example
-otto is giving an example
-otto is giving an example
-any text here
-any text here
-any text here
+Module / Session - date
+
+1.3. - 13/10/2020
+
+Reflection
+
+// Your reflection goes here
+
+Im todays session we were introduced to git/ github , we were shown a qucik demo on how to advantages of using VS code. we installed an extension onto VS code.We have done an introductray demonstration of how to commit changes in files to a repo that we cloned onto our machine
