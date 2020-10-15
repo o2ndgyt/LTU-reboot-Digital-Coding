@@ -6,4 +6,4 @@ Reflection
 
 // Your reflection goes here
 
-Im todays session we were introduced to git/ github , we were shown a qucik demo on how to advantages of using VS code. we installed an extension onto VS code.We have done an introductray demonstration of how to commit changes in files to a repo that we cloned onto our machine
+my todays session we were introduced to git/ github , we were shown a qucik demo on how to advantages of using VS code. we installed an extension onto VS code.We have done an introductray demonstration of how to commit changes in files to a repo that we cloned onto our machine
