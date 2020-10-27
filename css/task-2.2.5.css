@@ -1,0 +1,22 @@
+
+img { max-width: 300px; width: 300px; height: 300px;}
+h1{color:purple}
+li{font-size:14px}
+h6{ background-color:red;}
+ul{font-weight: bold; color:blue}
+p{font-family: Arial, Helvetica, sans-serif;}
+
+p em { font-size:48px; color:pink; background:black;}
+p strong {font-size:38px; color:yellow; }
+li strong {font-size:16px; color:red;}
+
+.yellow { background:yellow; color:black}
+
+
+li.yellow { background:#b5b507;}
+
+
+body#main_content ol
+{
+    background-color:blue;
+}
