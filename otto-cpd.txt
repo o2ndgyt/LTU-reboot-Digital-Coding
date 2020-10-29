@@ -8,3 +8,6 @@ Reflection
 
 my todays session we were introduced to git/ github , we were shown a qucik demo on how to advantages of using VS code. we installed an extension onto VS code.We have done an introductray demonstration of how to commit changes in files to a repo that we cloned onto our machine
 
+2.3.4 -29/10/2020
+
+We learned about box model (margin,padding).
