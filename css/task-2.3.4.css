@@ -1,0 +1,12 @@
+#main_content
+{
+    padding: 4px 8px 12px 15px;
+    border: 1px solid;
+    margin: 10px 20px 100px 15px;
+}
+
+header, main, footer{
+    border:1px solid goldenrod;
+    margin:10px;
+    padding 10px;
+}
