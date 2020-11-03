@@ -1,0 +1,14 @@
+.sidebar, .main
+{
+    border:1px solid green;
+    width: 400px;
+}
+.sidebar
+{
+    float:left;
+}
+
+.main
+{
+    float:right;
+}
