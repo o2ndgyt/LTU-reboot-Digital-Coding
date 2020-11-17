@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/task-3.1.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Javascript task 3.1.6</h1>
+        </header>
+        <main>
+            <p>To view this task you will need to open the console in developer
+                tools.</p>
+        </main>
+        <aside>
+        </aside>
+        <footer>
+            <p>&copy; 2020</p>
+        </footer>
+        <script>
+      var objRecipe=[
+          {
+              recipeTitle:'beans on toast',
+              servings:1,
+              ingredients:['baked beans','bread','butter','black pepper'],
+              direction:[
+                  'put beans in pan and heat on hob until bubbling',
+                  'place bread in toaster',
+                  'spread butter on bread',
+                  'place beans onto toast',
+                  'put black pepper onto beans'
+              ],
+              details: function(){
+              
+        console.log(this.recipeTitle);
+        console.log('serves:'+this.servings);
+        console.log('ingredients');
+        for(var j=0; j<this.ingredients.length; j++)
+{ 
+    ingredients=this.ingredients[j];
+    console.log(ingredients);
+}
+console.log('');
+console.log('directions');
+        for(var x=0; x<this.direction.length; x++)
+{ 
+    directions=this.direction[x];
+    console.log(directions);
+}
+              }
+          },{
+              recipeTitle:'eggs on toast',
+              servings:1,
+              ingredients:['baked beans','bread','butter','black pepper'],
+              direction:[
+                  'put eggs in pan and heat on hob until bubbling',
+                  'place bread in toaster',
+                  'spread butter on bread',
+                  'place beans onto toast',
+                  'put black pepper onto beans'
+              ],
+              details: function(){
+      
+                console.log(this.recipeTitle);
+        console.log('serves:'+this.servings);
+        console.log('ingredients');
+        for(var j=0; j<this.ingredients.length; j++)
+{ 
+    ingredients=this.ingredients[j];
+    console.log(ingredients);
+}
+console.log('');
+console.log('directions');
+        for(var x=0; x<this.direction.length; x++)
+{ 
+    directions=this.direction[x];
+    console.log(directions);
+}
+              }
+          }
+
+      ];
+      for (var i=0; i<objRecipe.length; i++)
+      { 
+       objRecipe[i].details();
+
+      }
+         </script>
+    </body>
+</html>
