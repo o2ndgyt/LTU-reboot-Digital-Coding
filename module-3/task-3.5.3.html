@@ -36,15 +36,22 @@
 
         function itemPriceRange(arrCart,lowPrice,highPrice,quantity)
         {
+            //testing the object is correct
             console.log(arrCart);
+            console.log(lowPrice);
+            console.log(highPrice);
+            //create an array to populate with items between the items
             var arrItems=[];
             for(var i=0; i<arrCart.length; i++)
 {
+    // setting the variable for the item price so it can be manipulated if required
     currentItem=arrCart[i];
     itemPrice=currentItem.price;
+    //if quantity is true then the amount of items in the cart is accounted for
     if (quantity)
     { itemPrice=itemPrice*currentItem.quantity;}
     console.log(currentItem);
+    //if the price is higher than or equal to the low price and lower than or equal to the high price
 if (itemPrice>=lowPrice && itemPrice<=highPrice)
 {
     arrItems.push(currentItem);
