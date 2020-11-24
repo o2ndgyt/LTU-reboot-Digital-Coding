@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/task-3.1.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Javascript task 3.6.1</h1>
+        </header>
+        <main>
+<div id="imageContainer">
+<img id="changeMe" src="https://images.pexels.com/photos/76972/moose-moose-rack-male-bull-76972.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+</div>
+
+        </main>
+        <aside>
+        </aside>
+        <footer>
+            <p>&copy; 2020</p>
+        </footer>
+       <script>
+           var image=document.getElementById('changeMe');
+           var newSrc='https://images.pexels.com/photos/46540/hippo-hippopotamus-animal-look-46540.jpeg?auto=compress&cs=tinysrgb&h=650&w=940';
+           image.src=newSrc;
+           var container=document.getElementById('imageContainer').style.border='3px dashed red';
+       </script>
+    </body>
+</html>
