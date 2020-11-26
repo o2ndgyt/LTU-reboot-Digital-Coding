@@ -1,0 +1,39 @@
+main{
+    max-width:calc(75%);
+    float:left;
+}
+aside{
+    max-width: calc(25%);
+    float: left;
+    border-left: none;
+}
+footer{
+    clear:both;
+}
+
+img{
+    width:200px;
+    max-width:200px;
+}
+
+.redDashedBorder{
+    border:3px dashed red;
+}
+
+.imageFilter{
+    width:200px;
+    float:left;
+}
+
+.imageFilter img{
+    width:200px;
+    max-width:200px;
+}
+
+.filterContainer{
+    margin-bottom:50px;
+}
+
+.selectedFilter{ 
+border:1px solid red;
+}
