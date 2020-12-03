@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/task-3.1.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Javascript task 4.2.2</h1>
+    </header>
+    <main>
+      
+    </main>
+    <aside>
+    </aside>
+    <footer>
+        <p>&copy; 2020</p>
+    </footer>
+    <script>
+var arrBookList=[
+    {
+        title:"The Hobbit",
+        author:"JRR Tolkien",
+        hasRead:false
+    },
+    {
+        title:"The lord of the rings",
+        author:"JRR Tolkien",
+        hasRead:true
+    },{
+        title:"Harry Potter",
+        author:"J K Rowling",
+        hasRead:true
+    }
+];
+for (var i = 0; i < arrBookList.length; i++)
+{
+    var objCurrentBook=arrBookList[i];
+    var strMessage=objCurrentBook.title+" by "+objCurrentBook.author;
+    if (objCurrentBook.hasRead)
+    {
+strMessage="You have read "+strMessage;
+    }    
+else
+{
+    strMessage="You need to read "+strMessage;
+
+}
+console.log(strMessage);
+}
+
+for (const i of arrBookList)
+{
+    var strMessage=i.title+" by "+i.author;
+    if (i.hasRead)
+    {
+strMessage="You have read "+strMessage;
+    }    
+else
+{
+    strMessage="You need to read "+strMessage;
+
+}
+console.log(strMessage);
+}
+
+    </script>
+</body>
+</html>
